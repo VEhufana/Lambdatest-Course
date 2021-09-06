@@ -1,0 +1,22 @@
+{
+  "name": "lambdatest-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts tests\\*.js --parallel --reporter mochawesome --require mochawesome/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^93.0.1",
+    "geckodriver": "^2.0.4",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2"
+  }
+}
